@@ -1,0 +1,17 @@
+<div class="header" [ngClass]="{'topped': topped}">
+  <div class="header-item text-left">
+    <span class="brand">
+      Uni Store
+    </span>
+  </div>
+  <div class="header-item text-center">
+    <span  class="header-navitem" [routerLink]="['/home']" routerLinkActive="active">Home</span >
+    <span  class="header-navitem">Shop</span >
+    <span  class="header-navitem">Collection</span >
+    <span  class="header-navitem">Contact</span >
+    <span  class="header-navitem">Account</span >
+  </div>
+  <div class="header-item text-right">
+    <app-headercart></app-headercart>
+  </div>
+</div>

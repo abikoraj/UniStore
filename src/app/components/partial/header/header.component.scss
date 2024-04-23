@@ -1,0 +1,35 @@
+.header{
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  padding: 5px 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display:flex;
+  z-index:2;
+  transition: all 0.8s;
+  &.topped{
+    position: fixed;
+  background-color: rgb(49, 49, 49) !important;
+  padding: 5px 40px !important;
+
+  }
+  .brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .header-item{
+    flex: 1;
+    line-height: 40px;
+    color: white;
+    .header-navitem{
+      padding: 0 20px;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+      &:hover{
+        color: rgb(255, 238, 0);
+      }
+    }
+  }
+}

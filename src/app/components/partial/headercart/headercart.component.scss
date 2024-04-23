@@ -1,0 +1,32 @@
+.mob-cart{
+  display: inline-block;
+  color: white;
+  .header-icon{
+    padding: 0 10px;
+    color: white;
+  }
+
+}
+
+@media(max-width:768px){
+  .mob-cart{
+    display: inline-block;
+    color: white;
+    .header-icon{
+      padding: 0 5px;
+      color: white;
+    }
+  }
+}
+// .header-search{
+//   display: inline-block;
+// }
+// .header-wish{
+//   display: inline-block;
+// }
+// .header-cart{
+//   display: inline-block;
+// }
+// .header-total{
+//   display: inline-block;
+// }
